@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background: url('../pic/marvel-5-scaled.jpg') center/cover;
+}
+.input{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    ::placeholder{
+        background: rgb(129, 121, 121) ;
+        color: #fff;
+        opacity: 1;
+    }
+    button{
+        background:rgb(129, 121, 121) ;
+        color: #fff;
+        margin-top: 5px;
+    }
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(57, 204, 241);
+    border-radius: 25px;
+}
+.elem{
+    width: 220px;
+    height: 300px;
+    margin:10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(88, 80, 80);
+}
+.foto{
+    height: 55%;
+    overflow: hidden;
+    margin-top: 5px;
+    img{
+        width: 200px;
+        display: block;
+}
+}
+.title{
+    height: 20%;
+    h2{
+        margin: 0;
+        padding: 10px;
+    }
+}
